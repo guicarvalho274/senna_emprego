@@ -14,7 +14,7 @@
 <body>
     <?php
         if($url == 'home'){
-            require_once('pages/home.php');
+            require_once('page/home.php');
         };
     ?>
 </body>

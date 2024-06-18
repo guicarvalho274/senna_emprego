@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Mulish balck', sans-serif;
+    src: url('../fontes/Mulish-Black.ttf') format('Truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Mulish regular', sans-serif;
+    src: url('../fontes/Mulish-Regular.ttf') format('Truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Mulish medium', sans-serif;
+    src: url('../fontes/Mulish-Medium.ttf') format('Truetype');
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-titulo--: #041D34;
+    --color-paragrafo--: #515E71;
+    --color-white--: white;
+}
+
+body,html{
+    height: 100%;
+    background: #E7EAEE;
+}
+
+/*Framework*/
+.container{
+    padding: 0 4%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Framework*/
+
+/*Sessao header*/
+section.sessao_header{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+section.sessao_header .container{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+section.sessao_header .container .imagem{
+    margin: 0 auto; 
+    width: 40%;
+    max-width: 207px;
+    height: 40%;
+}
+
+section.sessao_header .container .imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+    section.sessao_header{
+        margin-bottom: 40px;
+    }
+}
+/*Sessao header*/
+
+/*Sessao one*/
+section.sessao_one{
+    width: 100%;
+}
+/*Sessao one*/

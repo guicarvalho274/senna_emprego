@@ -22,3 +22,20 @@ Dentro do index estamos adicionado o arquivo para renderização de acordo com a
 
 Dentro de toda estrutura logica temos algumas classes de acesso... Dentro dela temos a classe **Site.php** que é a responsável por cuidar, proteger e gerenciar as demandas do site de forma totalmente estática.
 
+2. ```Estilos:``` O estilo da pagina é trabalhada totalmente em display flex, todo o conteúdo atualizado na medidade de .px e totalmente responsivo utilizando media queries e adpatável a todas as telas. Criamos um mini-framework para bloqueo de tamanho e trabalho com o flex:
+```css
+/*Framework*/
+.container{
+    padding: 0 4%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Framework*/
+```
