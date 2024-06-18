@@ -3,8 +3,9 @@ Criação de landing page que tem como foco a captura de lead para envio de info
 ---
 1. ```Estrutura logica:``` Esse sistema tem como foco a captação de dados dos usuarios para inclusão no banco de dados e metdodo proprio para envio ao trello. 
 Estamos utilizando essas linguagens:
+
 | LINGUAGEM | FRAMEWORK |
-|-----:|-----------|
+|----------:|------------|
 | PHP | PHP PURO |
 | JAVASCRIPT | JQUERY |
 
