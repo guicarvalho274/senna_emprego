@@ -27,7 +27,7 @@ Dentro de toda estrutura logica temos algumas classes de acesso... Dentro dela t
 /*Framework*/
 .container{
     padding: 0 4%;
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 

@@ -8,15 +8,13 @@
 
 <section class="sessao_one">
     <div class="container">
-        <div class="flex label-interna">
-            <div class="content">
+        <div class="label-interna">
                 <h1>Venha Fazer Parte da Senna Automóveis!</h1>
                 <p>Você está em busca de uma verdadeira oportunidade para crescer profissionalmente e ganhar muito dinheiro? A Senna Automóveis está com vagas abertas e queremos você na nossa equipe!</p>
                 <div class="video">
                     <div class="load"></div>
                     <!--adicionar-video-->
                 </div><!--video-->
-            </div><!--content-->
         </div><!--flex-->
     </div><!--container-->
 </section><!--sessao_one-->
