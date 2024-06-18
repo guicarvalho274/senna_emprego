@@ -10,3 +10,15 @@ Estamos utilizando essas linguagens:
 | JAVASCRIPT | JQUERY |
 
 Dentro do PHP temos alguns metodos de segurança e para envio de requisições por ajax.
+
+Dentro do index estamos adicionado o arquivo para renderização de acordo com a url apresentada no navegador:
+```php
+    <?php
+        if($url == 'home'){
+            require_once('pages/home.php');
+        };
+    ?>
+```
+
+Dentro de toda estrutura logica temos algumas classes de acesso... Dentro dela temos a classe **Site.php** que é a responsável por cuidar, proteger e gerenciar as demandas do site de forma totalmente estática.
+

@@ -8,9 +8,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH;?>style/style.css">
     <title>Senna - Emprego</title>
 </head>
 <body>
-    
+    <?php
+        if($url == 'home'){
+            require_once('pages/home.php');
+        };
+    ?>
 </body>
 </html>
