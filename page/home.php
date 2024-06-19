@@ -122,3 +122,12 @@
         </div><!--label-interna-->
     </div><!--container-->
 </section><!--sessao_four-->
+
+<section class="sessao_five">
+    <div class="container">
+        <div class="label-interna">
+            <h1>Oportunidade Única:</h1>
+            <p>Se você deseja iniciar ou impulsionar sua carreira no mercado automotivo, essa é a chance que você esperava. Na Senna Automóveis, valorizamos seu esforço e dedicação, oferecendo todos os recursos necessários para que você cresça e prospere junto conosco.</p>
+        </div><!--label-interna-->
+    </div><!--container-->
+</section><!--sessao_five-->
