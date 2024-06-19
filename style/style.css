@@ -903,7 +903,7 @@ section.sessao_five .container .label-interna p{
     max-width: 990px;
     color: var(--color-paragrafo--);
     font-family: 'Mulish medium', sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     margin: 0 auto;
 }
 
@@ -1056,5 +1056,189 @@ section.sessao_six .container .label-interna .h100 .h-min video{
     border-radius: 55px;
     object-fit: cover;
     object-position: left;
+}
+
+@media screen and (max-width: 900px) {
+
+    section.sessao_six .container .label-interna{
+        padding: 40px 50px;
+        border-radius: 40px;
+        height: 800px;
+    }
+
+    section.sessao_six .container .label-interna h1{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_six .container .label-interna > p{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_six .container .label-interna .btn-action{
+        margin-bottom: 35px;
+    }
+
+    section.sessao_six .container .label-interna .h100{
+        padding-top: 30px;
+        height: 1200px;
+        border-radius: 60px;
+    }
+
+    section.sessao_six .container .label-interna .h100 .h-min{
+        width: 92%;
+        border-radius: 50px;
+    }
+
+    section.sessao_six .container .label-interna .h100 .h-min video{
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    section.sessao_six .container .label-interna{
+        padding: 40px 50px;
+        border-radius: 40px;
+        height: 800px;
+    }
+    section.sessao_six .container .label-interna .h100{
+        padding-top: 30px;
+        height: 1000px;
+        border-radius: 60px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    section.sessao_six .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+        height: 650px;
+    }
+    section.sessao_six .container .label-interna .h100{
+        padding-top: 20px;
+        height: 750px;
+        border-radius: 30px;
+    }
+
+    section.sessao_six .container .label-interna .h100 .h-min{
+        width: 92%;
+        border-radius: 20px;
+    }
+
+    section.sessao_six .container .label-interna .h100 .h-min video{
+        border-radius: 20px;
+        object-fit: contain;
+        object-position: top;
+    }
+}
+
+@media screen and (max-width: 600px){
+    section.sessao_six .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+        height: 520px;
+    }
+    section.sessao_six .container .label-interna .h100{
+        padding-top: 20px;
+        height: 750px;
+        border-radius: 20px;
+    }
+
+    section.sessao_five .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+    }
+
+    section.sessao_six .container .label-interna h1{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_six .container .label-interna > p{
+        font-size: 18px;
+    }
+
+    section.sessao_six .container .label-interna .btn-action{
+        width: 80%;
+        max-width: 280px;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+    }
+
+    section.sessao_six .container .label-interna .btn-action p{
+        color: var(--color-white--);
+        font-size: 20px;
+        font-family: 'Mulish black', sans-serif;
+    }
+
+    section.sessao_six .container .label-interna .h100 .h-min{
+        width: 94%;
+        border-radius: 15px;
+    }
+
+    section.sessao_six .container .label-interna .h100 .h-min video{
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    section.sessao_six .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+        height: 450px;
+    }
+
+    section.sessao_six .container .label-interna h1{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    section.sessao_six .container .label-interna > p{
+        font-size: 14px;
+    }
+
+    section.sessao_six .container .label-interna .btn-action{
+        max-width: 280px;
+        padding: 8px 20px;
+        margin-bottom: 25px;
+    }
+
+    section.sessao_six .container .label-interna .btn-action p{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    section.sessao_six .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+        height: 380px;
+    }
+
+    section.sessao_six .container .label-interna h1{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    section.sessao_six .container .label-interna > p{
+        font-size: 12px;
+    }
+
+    section.sessao_six .container .label-interna .h100{
+        padding-top: 10px;
+    }
+
+    section.sessao_six .container .label-interna .btn-action{
+        max-width: 280px;
+        padding: 8px 20px;
+        margin-bottom: 25px;
+    }
+
+    section.sessao_six .container .label-interna .btn-action p{
+        font-size: 14px;
+    }
+
 }
 /*Sessao six*/

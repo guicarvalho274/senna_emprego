@@ -152,4 +152,40 @@
             </div><!--h100-->
         </div><!--label-interna-->
     </div><!--container-->
-</section>
+</section><!--sessao-six-->
+
+<section class="sessao_seven">
+    <div class="container">
+        <div class="labelr-interna" id="form">
+            <h4>Preencha todos os dados</h4>
+            <h2>Formulário de cadastro</h2>
+            <form>
+                <div class="flex">
+                    <div class="input">
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome completo">
+                    </div><!--input-->
+
+                    <div class="input">
+                        <label for="whatsapp">WhatsApp:</label>
+                        <input type="text" name="whatsapp" id="whatsapp" placeholder="99 9 9999-9999">
+                    </div><!--input-->
+
+                    <div class="input">
+                        <label for="experiencia">Tem Experiência?</label>
+                        <select name="experiencia" id="experiencia">
+                            <option value="Escolha uma opção" hidden>Escolha uma opção</option>
+                            <option value="Sim">Sim</option>
+                            <option value="Não">Não</option>
+                        </select>
+                    </div><!--input-->
+
+                    <div class="input">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="email@domain.com">
+                    </div><!--input-->
+                </div>
+            </form>
+        </div><!--label-interna-->
+    </div><!--container-->
+</section><!--sessao_seven-->
