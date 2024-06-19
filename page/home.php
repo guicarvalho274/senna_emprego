@@ -156,7 +156,7 @@
 
 <section class="sessao_seven">
     <div class="container">
-        <div class="labelr-interna" id="form">
+        <div class="label-interna" id="form">
             <h4>Preencha todos os dados</h4>
             <h2>Formulário de cadastro</h2>
             <form>
@@ -184,6 +184,9 @@
                         <label for="email">Email:</label>
                         <input type="text" name="email" id="email" placeholder="email@domain.com">
                     </div><!--input-->
+
+                    <input type="hidden" name="token" id="token" value="<?php echo $clientId?>">
+                    <input type="submit" name="action" id="btn-action-form" value="Enviar dados">
                 </div>
             </form>
         </div><!--label-interna-->

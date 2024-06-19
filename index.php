@@ -2,6 +2,7 @@
     require_once('config.php');
     $url = isset($_GET['url']) ? $_GET['url'] : 'home';
     Site::reloadPage($url, 'home', 'page');
+    $clientId = uniqid();
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

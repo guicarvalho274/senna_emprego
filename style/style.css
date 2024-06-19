@@ -1134,6 +1134,10 @@ section.sessao_six .container .label-interna .h100 .h-min video{
 }
 
 @media screen and (max-width: 600px){
+    section.sessao_six{
+        margin-bottom: 30px;
+    }
+
     section.sessao_six .container .label-interna{
         padding: 40px 20px;
         border-radius: 30px;
@@ -1242,3 +1246,202 @@ section.sessao_six .container .label-interna .h100 .h-min video{
 
 }
 /*Sessao six*/
+
+/*Sessao seven*/
+section.sessao_seven{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+section.sessao_seven .container .label-interna{
+    background: var(--color-white--);
+    box-shadow: 0px 4px 84.7px -30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    padding: 60px 50px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+section.sessao_seven .container .label-interna h4{
+    color: #C0C0C0;
+    font-size: 18px;
+    font-family: 'Mulish medium', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+section.sessao_seven .container .label-interna h2{
+    font-size: 38px;
+    color: var(--color-titulo--);
+    font-family: 'Mulish black', sans-serif;
+    margin-bottom: 33px;
+}
+
+section.sessao_seven .container .label-interna form{
+    width: 90%;
+    margin: 0 auto;
+}
+
+section.sessao_seven .container .label-interna form .flex .input{
+    width: calc(100% /2 - 15px);
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+section.sessao_seven .container .label-interna form .flex .input label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: var(--color-titulo--);
+    font-size: 20px;
+    font-family: 'Mulish medium', sans-serif;
+}
+
+section.sessao_seven .container .label-interna form .flex .input input{
+    width: 100%;
+    background: #FBFBFB;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #DBDBDB;
+    color: rgb(58, 58, 58);
+    font-size: 14px;
+    font-family: 'Mulish medium', sans-serif;
+}
+
+section.sessao_seven .container .label-interna form .flex .input input::placeholder{
+    color: #D2D2D2;
+}
+
+section.sessao_seven .container .label-interna form .flex .input input:focus{
+    border-color: var(--color-blue--);
+    outline: none;
+    box-shadow: 0px 0px 5px #9bbcff;
+}
+
+section.sessao_seven .container .label-interna form .flex .input select{
+    width: 100%;
+    background: #FBFBFB;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #DBDBDB;
+    color: rgb(58, 58, 58);
+    font-size: 14px;
+    font-family: 'Mulish medium', sans-serif;
+}
+
+section.sessao_seven .container .label-interna form .flex .input select:focus{
+    border-color: var(--color-blue--);
+    outline: none;
+    box-shadow: 0px 0px 5px #9bbcff;
+}
+
+section.sessao_seven .container .label-interna form input[type=submit]{
+    width: 100%;
+    padding: 15px 15px;
+    background: var(--color-blue--);
+    border-radius: 70px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Mulish black', sans-serif;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+section.sessao_seven .container .label-interna form input[type=submit]:hover{
+    background: var(--color-blue-hover--);
+}
+
+@media screen and (max-width: 900px) {
+    section.sessao_seven .container .label-interna{
+        padding: 40px 50px;
+        border-radius: 40px;
+    }
+
+    section.sessao_seven .container .label-interna h4{
+        font-size: 16px;
+    }
+
+    section.sessao_seven .container .label-interna h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_seven .container .label-interna form .flex .input label{
+        font-size: 16px;
+    }
+
+    section.sessao_seven .container .label-interna form .flex .input input{
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+
+    section.sessao_seven .container .label-interna form .flex .input select{
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    section.sessao_seven .container .label-interna form input[type=submit]{
+        padding: 10px 15px;
+        max-width: 270px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    section.sessao_seven .container .label-interna h2{
+        margin-bottom: 30px;
+    }
+
+    section.sessao_seven .container .label-interna form .flex .input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    section.sessao_seven{
+        padding-bottom: 30px;
+    }
+
+    section.sessao_seven .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+    }
+
+    section.sessao_seven .container .label-interna h4{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    section.sessao_seven .container .label-interna h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_seven .container .label-interna form .flex .input label{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    section.sessao_seven .container .label-interna h4{
+        font-size: 12px;
+    }
+
+    section.sessao_seven .container .label-interna h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    section.sessao_seven .container .label-interna form .flex .input label{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+/*Sessao seven*/
