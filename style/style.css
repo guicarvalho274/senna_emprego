@@ -693,3 +693,181 @@ section.sessao_three .container .btn-action p{
     }
 }
 /*Sessao three*/
+
+/*Sessao four*/
+section.sessao_four{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+section.sessao_four .container .label-interna{
+    background: var(--color-white--);
+    box-shadow: 0px 4px 84.7px -30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    padding: 60px 50px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+section.sessao_four .container .label-interna h1{
+    font-size: 36px;
+    color: var(--color-titulo--);
+    font-family: 'Mulish black', sans-serif;
+}
+
+section.sessao_four .container .label-interna h1:first-child{
+    margin-bottom: 40px;
+}
+
+section.sessao_four .container .label-interna h1 span{
+    color: #19C185;
+}
+
+section.sessao_four .container .label-interna  .list{
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+section.sessao_four .container .label-interna  .list li{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+section.sessao_four .container .label-interna  .list li:last-child{
+    margin-bottom: 0px;
+}
+
+section.sessao_four .container .label-interna  .list li img{
+    width: 37px;
+    height: 37px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+section.sessao_four .container .label-interna  .list li p{
+    color: var(--color-paragrafo--);
+    font-family: 'Mulish black', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1030px) {
+    section.sessao_four .container .label-interna h1{
+        font-size: 32px;
+    }
+    section.sessao_four .container .label-interna  .list li img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    section.sessao_four .container .label-interna  .list li p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    section.sessao_four .container .label-interna{
+        padding: 40px 50px;
+        border-radius: 40px;
+    }
+
+    section.sessao_four .container .label-interna h1{
+        font-size: 30px;
+    }
+    section.sessao_four .container .label-interna  .list li{
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 15px;
+    }
+    section.sessao_four .container .label-interna  .list li img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    
+    section.sessao_four .container .label-interna  .list li p{
+        font-size: 18px;
+        text-align: left;
+        position: relative;
+        top: -2px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    section.sessao_four .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+    }
+
+    section.sessao_four .container .label-interna h1{
+        font-size: 22px;
+    }
+
+    section.sessao_four .container .label-interna h1:first-child{
+        margin-bottom: 20px;
+    }
+
+    section.sessao_four .container .label-interna h1:last-child{
+        width: 75%;
+        margin: 0 auto;
+    }
+    section.sessao_four .container .label-interna  .list{
+        margin-bottom: 20px;
+    }
+    section.sessao_four .container .label-interna  .list li p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    section.sessao_four .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+    }
+
+    section.sessao_four .container .label-interna h1{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    section.sessao_four .container .label-interna h1:last-child{
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    section.sessao_four .container .label-interna  .list{
+        margin-bottom: 20px;
+    }
+    section.sessao_four .container .label-interna  .list li p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section.sessao_four .container .label-interna{
+        padding: 40px 20px;
+        border-radius: 30px;
+    }
+
+    section.sessao_four .container .label-interna h1{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    section.sessao_four .container .label-interna  .list li img{
+        width: 15px;
+        height: 15px;
+    }
+
+    section.sessao_four .container .label-interna h1:last-child{
+        margin-bottom: 0px;
+        width: 75%;
+    }
+
+    section.sessao_four .container .label-interna  .list{
+        margin-bottom: 20px;
+    }
+    section.sessao_four .container .label-interna  .list li p{
+        font-size: 12px;
+    }
+}
+/*Sessao five*/
