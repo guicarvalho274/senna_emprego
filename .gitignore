@@ -3,3 +3,7 @@
 imagens/
 fontes/
 media/
+classes/vendor/
+classes/*composer.json
+classes/*composer.lock
+ajax/

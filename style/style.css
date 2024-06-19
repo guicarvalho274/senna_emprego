@@ -33,6 +33,7 @@
 body,html{
     height: 100%;
     background: #E7EAEE;
+    overflow: hidden;
 }
 
 /*Framework*/
@@ -50,6 +51,119 @@ body,html{
 }
 /*Framework*/
 
+.callback{
+    display: inline-block;
+    padding: 15px 30px;
+    max-width: 500px;
+    width: 85%;
+    background: #86aeff;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    opacity: 0;
+    z-index: -1;
+    transition: .6s ease-in;
+}
+
+.callback h2{
+    font-size: 22px;
+    font-family: 'Mulish black';
+    margin-bottom: 10px;
+}
+
+.callback p{
+    font-size: 16px;
+    font-family: 'Mulish medium', sans-serif;
+}
+
+.callback.sucesso{
+    background: #CAFFDC;
+}
+
+.callback.error{
+    background: #FFE3E0;
+}
+
+.callback.sucesso h2{
+    color: #009333;
+}
+
+.callback.error h2{
+    color: #CD0000;
+}
+
+
+.callback p{
+    font-size: 16px;
+    font-family: 'Mulish medium', sans-serif;
+    font-weight: 600;
+}
+
+.callback.sucesso p{
+    color: #009333;
+}
+
+.callback.error p{
+    color: #CD0000;
+}
+
+
+.callback::before{
+    content: '';
+    height: 100%;
+    width: 2%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.callback.sucesso::before{
+    background: #009333;
+}
+
+.callback.error::before{
+    background: #CD0000;
+}
+
+
+#preload-criacao{
+    width: 100%;
+    height: 100vh;
+    background: var(--color-blue--);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#preload-criacao img{
+    width: 60%;
+    height: auto;
+    max-width: 500px;
+    object-fit: contain;
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    transform: scale(0.6);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(0.6);
+    }50%{
+        transform: scale(1);
+    }100%{
+        transform: scale(0.6);
+    }
+}
 /*Sessao header*/
 section.sessao_header{
     width: 100%;
@@ -1306,6 +1420,7 @@ section.sessao_seven .container .label-interna form .flex .input input{
     color: rgb(58, 58, 58);
     font-size: 14px;
     font-family: 'Mulish medium', sans-serif;
+    cursor: text;
 }
 
 section.sessao_seven .container .label-interna form .flex .input input::placeholder{
@@ -1335,7 +1450,7 @@ section.sessao_seven .container .label-interna form .flex .input select:focus{
     box-shadow: 0px 0px 5px #9bbcff;
 }
 
-section.sessao_seven .container .label-interna form input[type=submit]{
+section.sessao_seven .container .label-interna form .submit{
     width: 100%;
     padding: 15px 15px;
     background: var(--color-blue--);
@@ -1345,14 +1460,48 @@ section.sessao_seven .container .label-interna form input[type=submit]{
     margin: 0 auto;
     border: none;
     outline: none;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+section.sessao_seven .container .label-interna form .submit .load{
+    position: absolute;
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid var(--color-blue--);
+    border-top-color: var(--color-white--);
+    animation-name: loading;
+    animation-duration: .6s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count: infinite;
+    display: none;
+}
+@keyframes loading {
+    0%{
+        transform: rotate(0deg); 
+    }100%{
+        transform: rotate(360deg); 
+    }
+}
+
+section.sessao_seven .container .label-interna form .submit input[type=submit]{
     font-size: 20px;
     color: white;
     font-family: 'Mulish black', sans-serif;
+    border: none;
+    background: none;
+    outline: none;
     cursor: pointer;
-    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: .6s;
 }
 
-section.sessao_seven .container .label-interna form input[type=submit]:hover{
+section.sessao_seven .container .label-interna form .submit:hover{
     background: var(--color-blue-hover--);
 }
 
@@ -1386,9 +1535,12 @@ section.sessao_seven .container .label-interna form input[type=submit]:hover{
         font-size: 12px;
         border-radius: 8px;
     }
-    section.sessao_seven .container .label-interna form input[type=submit]{
+    section.sessao_seven .container .label-interna form .submit{
         padding: 10px 15px;
         max-width: 270px;
+    }
+
+    section.sessao_seven .container .label-interna form .submit input[type=submit]{
         font-size: 16px;
     }
 }
