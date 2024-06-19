@@ -118,7 +118,7 @@
                     <p>Vale alimentação.</p>
                 </li>
             </ul><!--list-->
-            <h1>Ganhos podendo alcancar mais de <span>R$4.000,00</span></h1>
+            <h1>Ganhos podendo alcançar mais de <span>R$4.000,00</span></h1>
         </div><!--label-interna-->
     </div><!--container-->
 </section><!--sessao_four-->
@@ -131,3 +131,25 @@
         </div><!--label-interna-->
     </div><!--container-->
 </section><!--sessao_five-->
+
+<section class="sessao_six">
+    <div class="container">
+        <div class="label-interna">
+            <h1>Faça Parte da Nossa Equipe:</h1>
+            <p>Junte-se a nós e ajude a realizar o sonho de nossos clientes enquanto constrói uma carreira brilhante. Não perca essa oportunidade de fazer parte de uma equipe vencedora e transformar sua vida profissional. Candidate-se agora mesmo!</p>
+
+            <div class="btn-action" id="action" data-action="form">
+                <p>Quero a vaga</p>
+            </div><!--btn-action-->
+
+            <div class="h100">
+                <div class="h-min">
+                    <video class="video" height="500" width="900" controls="false" autoplay loop
+                    muted>
+                        <source src="<?php echo INCLUDE_PATH;?>media/2024-06-13 20-48-03.mp4" type="video/mp4">
+                    </video><!--video-->
+                </div><!--h-min-->
+            </div><!--h100-->
+        </div><!--label-interna-->
+    </div><!--container-->
+</section>

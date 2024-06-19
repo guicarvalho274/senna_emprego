@@ -926,7 +926,7 @@ section.sessao_five .container .label-interna p{
     section.sessao_five{
         margin-bottom: 30px;
     }
-    
+
     section.sessao_five .container .label-interna{
         padding: 40px 20px;
         border-radius: 30px;
@@ -974,3 +974,87 @@ section.sessao_five .container .label-interna p{
 }
 
 /*Sessao five*/
+
+/*Sessao six*/
+section.sessao_six{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+section.sessao_six .container .label-interna{
+    background: var(--color-white--);
+    box-shadow: 0px 4px 84.7px -30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    padding: 60px 50px;
+    border-radius: 40px;
+    text-align: center;
+    height: 900px;
+    overflow-y: hidden;
+}
+
+section.sessao_six .container .label-interna h1{
+    font-size: 38px;
+    color: var(--color-titulo--);
+    margin-bottom: 30px;
+    font-family: 'Mulish black', sans-serif;
+}
+
+section.sessao_six .container .label-interna > p{
+    color: var(--color-paragrafo--);
+    font-size: 22px;
+    font-family: 'Mulish medium', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 879px;
+}
+
+section.sessao_six .container .label-interna .btn-action{
+    width: 80%;
+    max-width: 395px;
+    padding: 18px 20px;
+    background: var(--color-blue--);
+    border-radius: 45px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-bottom: 45px;
+}
+
+
+section.sessao_six .container .label-interna .btn-action:hover{
+    background: var(--color-blue-hover--);
+}
+
+section.sessao_six .container .label-interna .btn-action p{
+    color: var(--color-white--);
+    font-size: 24px;
+    font-family: 'Mulish black', sans-serif;
+}
+
+section.sessao_six .container .label-interna .h100{
+    height: 1400px;
+    width: 100%;
+    border-radius: 72px;
+    background: var(--color-blue--);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+section.sessao_six .container .label-interna .h100 .h-min{
+    width: 90%;
+    height: 840px;
+    border-radius: 55px;
+    background: var(--color-white--);
+}
+
+section.sessao_six .container .label-interna .h100 .h-min video{
+    width: 100%;
+    height: 100%;
+    border-radius: 55px;
+    object-fit: cover;
+    object-position: left;
+}
+/*Sessao six*/
